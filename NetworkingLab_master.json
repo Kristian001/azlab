@@ -167,7 +167,6 @@
 				},
 				"parameters":  "[variables('multiVnetParams')]"
 			}
-		},
 		{
 			"comments": "Create NVAs in vnet4, if createNVA=yes",
             "name": "nva",
