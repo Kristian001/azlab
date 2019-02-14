@@ -19,7 +19,7 @@
             "metadata": { "description": "Whether NVAs should be deployed at all or not" }
         },
         "nvaType": {
-            "defaultValue": "ubuntu",
+            "defaultValue": "ubuntuScaleSet",
             "type": "string",
             "allowedValues": [ "ubuntu","ubuntuScaleSet" ],
             "metadata": { "description": "Choose ubuntuScaleSet to deploy NVA in a scale set" }
