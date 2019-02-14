@@ -131,20 +131,20 @@
             },
             "no": {}
         },
- #       "vpnGwTemplateParams1": "[variables('vpnGwTemplateParamsHash1')[parameters('createVPNgw')]]",
- #       "vpnGwTemplateParamsHash2": {
- #           "yes": {
- #               "vnetName": { "value": "myVnet5" },
- #               "gwName": { "value": "vnet5gw" },
- #               "enableBgp": { "value": "true" },
- #               "PIPName": { "value": "vnet5gwPip" }
- #           },
- #           "no": {}
+        "vpnGwTemplateParams1": "[variables('vpnGwTemplateParamsHash1')[parameters('createVPNgw')]]",
+        "vpnGwTemplateParamsHash2": {
+            "yes": {
+                "vnetName": { "value": "myVnet5" },
+                "gwName": { "value": "vnet5gw" },
+                "enableBgp": { "value": "true" },
+                "PIPName": { "value": "vnet5gwPip" }
+            },
+            "no": {}
         },
- #       "vpnGwTemplateParams2": "[variables('vpnGwTemplateParamsHash2')[parameters('createVPNgw')]]",
- #       "PeeringUseRemoteGatewaysHash": {
- #           "yes": true,
- #           "no": false
+        "vpnGwTemplateParams2": "[variables('vpnGwTemplateParamsHash2')[parameters('createVPNgw')]]",
+       "PeeringUseRemoteGatewaysHash": {
+            "yes": true,
+            "no": false
         },
         "PeeringUseRemoteGateways": "[variables('PeeringUseRemoteGatewaysHash')[parameters('createVPNgw')]]",
         "UDRTemplateUriYesNo": {
